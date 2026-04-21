@@ -1763,7 +1763,7 @@ function CompanyDataPage({toast}){
 }
 
 // ── APP ROOT ──────────────────────────────────────────────────
-export default function App(){
+function App(){
   const[store,dispatch]=useReducer(storeReducer,INIT);
   const[session,setSession]=useState(null);
   const[page,setPage]=useState("dashboard");
